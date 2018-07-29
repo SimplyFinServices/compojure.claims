@@ -7,12 +7,12 @@ _compojure.claims_ is a small library that allows you to do claims/roles authori
 _compojure.claims_ assumes that you have Compojure added as a project dependency.
 
 ```
-[za.co.simply/compojure.claims "0.1.0-SNAPSHOT" :exclusions [compojure]]
+[za.co.simply/compojure.claims "1.0.0" :exclusions [compojure]]
 ```
 
 ## Usage
 
-_compojure.claims_ provides a simply way to add authorisation requirements per compojure route, without specifying how you should implement your authentication and authorisation.
+_compojure.claims_ provides a simple way to add authorisation requirements per compojure route, without specifying how you should implement your authentication and authorisation.
 
 **Routes**
 

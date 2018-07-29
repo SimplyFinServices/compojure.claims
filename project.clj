@@ -1,4 +1,4 @@
-(defproject za.co.simply/compojure.claims "0.1.1-SNAPSHOT"
+(defproject za.co.simply/compojure.claims "1.0.0"
   :description "A is a small library that allows you to do claims/roles authorisation per Compojure route."
   :url "https://github.com/SimplyFinServices/compojure.claims"
   :license {:name "Eclipse Public License"
