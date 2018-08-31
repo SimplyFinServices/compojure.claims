@@ -57,8 +57,12 @@ What happens when a user does not have the required claims or roles is defined b
 
 **Claims per Method type**
 
-Both `has-claims?` and `handle-no-claims` can be implemented for any of the compojure route methods (`:get`, `:post`, `:options` etc) as well as for the `ANY` route by using `:any`
+Both `has-claims?` and `handle-no-claims` can be implemented for any of the compojure route methods (`:get`, `:post`, `:options` etc) as well as for the `ANY` route by using `:any**
 
+
+**Note**
+
+Behaviour might be unexpected when used with `wrap-routes`, because both need to match the route before executing the body.
 
 ## Example
 
